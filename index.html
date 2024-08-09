@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#MEDFLUENCERSACADEMY</title>
+
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCid2lTXP0VmnkbIx1w6WkX5OXREecbakQ"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    
+</head>
+<body onload="initMap()">
+    <div class="contenedor-principal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contenedor-header">
+                        <div class="img">
+                            <img src="./img/logo-medfluencers-cabecera.svg" alt="MEDFLUENCERSACADEMY">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-12"></div>
+                <div class="col-lg-6 col-lg-12">
+                    <div class="info">
+                        <div class="contenedor-ppal-info">
+                            <div class="contenedor-info">
+                                <p class="date-top">13TH MARCH 2023</p>
+                                <h2>WELCOME TO <b>#MEDFLUENCERSACADEMY</b></h2>
+                                <p>We are delighted to invite you to the 1st edition of our #MedfluencersAcademy by LDB Europe and ISDI Digital University, where you will learn the best tools to maximize your business through social media.</p>
+                                <p>This is a great opportunity togain a deeper insight into the different platforms and techniques to further develop your online presence.</p>
+                            </div>
+                            <div class="contenedor-botones">
+                                <a href="#speakers" class="btn-top">SPEAKERS</a>
+                                <a href="#agenda" class="btn-top">AGENDA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra-bottom-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><a href="#formulario-registro">REGISTRATION ></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="speakers" id="speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="speakers-info">
+                        <h3>DISCOVERING OUR SPEAKERS</h3>
+                        <h2>OUR <b>SPEAKERS</b></h2>
+                        <p>Get ready to discover the perfect match between Digital & Medical through ISDI Digital University and our industry experts.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="contenedor-speakers">
+                        <div class="speakers-grid">
+                            <img src="./img/rodrigo-miranda.png" alt="">
+                            <h4>RODRIGO MIRANDA</h4>
+                            <p>ISDI Managing Director & partner</p>
+                        </div>
+
+                        <div class="speakers-grid">
+                            <img src="./img/alexanddre.png" alt="">
+                            <h4>ALEXANDRE LEMONNIER</h4>
+                            <p>Consumer & Market Intelligence Director L'Oréal Europe</p>
+                        </div>
+
+                        <div class="speakers-grid">
+                            <img src="./img/Phil-Gonzalez.png" alt="">
+                            <h4>PHIL GONZÁLEZ</h4>
+                            <p>Marketing and Social Conference Speaker and Author of 5 books about Instagram & Social Media</p>
+                        </div>
+
+                        <div class="speakers-grid">
+                            <img src="./img/nuria-manhe.png" alt="">
+                            <h4>NURIA MAÑÉ</h4>
+                            <p>Social Media Strategist & Social Communication consultant & ISDI Master Internet Executive Program Business Professor</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="agenda" id="agenda">
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>MEDLUENCERS ACADEMY</h3>
+                <h2>THE <b>AGENDA</b></h2>
+                <table class="schedule">
+                    <tr>
+                        <td>9:00 - 9:30</td>
+                        <td>REGISTRATION & WELCOME COFFEE</td>
+                    </tr>
+                    <tr>
+                        <td>9:30 - 9:45</td>
+                        <td>OFFICIAL WELCOME FROM ELISABETH ARAUJO, MD<br>EUROPE ZONE L'ORÉAL DERMATOLOGICAL BEAUTY</td>
+                    </tr>
+                    <tr>
+                        <td>9:45 - 10:45</td>
+                        <td>DECODING THE NEW HEALTH & BEAUTY CONSUMER</td>
+                    </tr>
+                    <tr>
+                        <td>10:45 - 11:00</td>
+                        <td>COFFEE & IMMERSIVE EXPERIENCE CORNERS</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td>BUILDING YOUR OPTIMAL DIGITAL IDENTITY</td>
+                    </tr>
+                </table>
+                <div class="button-container">
+                    <a href="#" class="btn" id="add-to-calendar">ADD TO CALENDAR</a>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <div class="formulario-registro" id="formulario-registro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contenedor-img-form">
+                        <img src="img/img-formulario.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                   <div class="contenedor-formulario">
+                    <p>WE LOOK FORWARD TO SEEING YOU IN</p>
+                    <h2>#MEDFLUENCERS<b>ACADEMY</b></h2>
+                    <div class="form-container">
+                        <form action="process_form.php" method="post">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Name*</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="lastname" name="lastname" required>
+                                <label for="lastname">Last name*</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">E-mail*</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" required>
+                                <label for="phone">Phone*</label>
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="age" name="age" required>
+                                <label for="age">I AM OF AGE and I have read and accept the <a href="#">Terms of Use</a> and the <a href="#">Privacy Policy</a> of the website.</label>
+                            </div>
+                            <button type="submit">REGISTER</button>
+                        </form>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ubicacion" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>IN THE CENTRE OF MADRID</h3>
+                    <h2>OUR <b>LOCATION</b></h2>
+                    <p>We will be waiting for you at ISDI Madrid headquarters, <span class="underline">Calle de Viriato, 20, 28010 Madrid.</span></p>
+                    
+                </div>
+                <div class="col-lg-12">
+                    
+                </div>
+            </div>
+        </div>
+        <div ><div id="map"></div></div>
+        
+
+
+    </div>
+
+    <div class="barra-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="./img/logo-medfluencers-footer.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logos-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logos">
+                        <img src="./img/logo-loreal.svg" alt="">
+                        <img src="./img/logo-isdi.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
+

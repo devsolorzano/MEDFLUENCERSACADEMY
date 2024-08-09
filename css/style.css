@@ -1,0 +1,647 @@
+body {
+    font-family:'roboto';
+    margin: 0;
+    background-color: #fff;
+}
+p {
+    font-family: 'roboto';
+    font-size: 16px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/*banner principal*/
+.contenedor-info {
+    text-align: center;
+}
+.barra-bottom-banner a {
+    text-decoration: none;
+    color: #fff;
+}
+p.date-top {
+    font: normal normal normal 20px / 20px Roboto;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.contenedor-info h2 {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: italic;
+}
+b {
+    font-weight: 400;
+}
+.contenedor-header {
+    text-align: center;
+    padding: 20px;
+}
+.contenedor-banner {
+    background-image: url(../img/img-cabecera-desktop.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenedor-ppal-info {
+    width: 400px;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    padding: 38px;
+    position: absolute;
+    top: 168px;
+    left: 802px;
+}
+.contenedor-botones .btn-top:hover {
+    background: #000;
+    color: #fff;
+}
+.btn-top {
+    width: 48%;
+    height: auto;
+    border: 2px solid #000000;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+}
+.barra-bottom-banner {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*speakers */
+.speakers-info {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.speakers-info h3 {
+    font: normal normal normal 20px / 30px Roboto;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.speakers-info h2 {
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.speakers {
+    text-align: center;
+    padding-top: 60px;
+    height: 100vh;
+}
+.contenedor-speakers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.speakers-grid {
+    width: 186px;
+    text-align: center;
+    padding: 10px;
+}
+
+.speakers-grid img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.speakers-grid h4 {
+    margin: 10px 0 5px;
+    font: normal 22px / 24px Roboto;
+}
+
+.speakers-grid p {
+    margin: 0;
+    font-size: 0.9em; 
+}
+
+/* seccion agenda*/
+.agenda h3 {
+    font: normal normal normal 20px / 30px Roboto;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.agenda h2 {
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.schedule {
+    width: 100%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    max-width: 600px;
+}
+.schedule th, .schedule td {
+    padding: 15px;
+    text-align: left;
+}
+.schedule th {
+    background-color: #f9f9f9;
+}
+.schedule td {
+    border-bottom: 1px solid #000;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.agenda {
+    background-image: url(../img/fondo-programa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 60px;
+}
+#add-to-calendar {
+    background: #000000 0% 0% no-repeat padding-box;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    padding: 20px;
+    text-decoration: none;
+}
+/*formulario*/
+.contenedor-img-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.contenedor-formulario {
+    padding-top: 46px;
+}
+.contenedor-img-form img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+}
+.form-container {
+    padding: 2rem;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 450px;
+}
+.formulario-registro h2 {
+    padding-left: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.formulario-registro p{
+    padding-left: 2rem;
+    font: normal normal normal 20px / 30px Roboto;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    color: #000;
+}
+
+input:focus,
+input:valid {
+    border-bottom: 1px solid #000;
+}
+
+label {
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+input:focus + label,
+input:valid + label {
+    top: -1rem;
+    font-size: 0.75rem;
+    color: #000;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.checkbox-group label {
+    margin: 0;
+    font-size: 11px;
+    position: static;
+}
+
+.checkbox-group a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.checkbox-group a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/*Formulario*/
+#map {
+    height: 400px;
+    width: 100%;
+}
+.ubicacion {
+    padding-bottom: 40px;
+    text-align: center;
+}
+.ubicacion h3 {
+    font: normal normal normal 20px / 30px Roboto;
+    letter-spacing: 2px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.ubicacion h2 {
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.ubicacion p{
+    font: normal normal normal 16px / 19px Roboto;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.underline {
+    border-bottom: 2px solid black; 
+    display: inline-block; 
+  }
+/*footer*/
+.barra-footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+}
+.logos-footer {
+    text-align: center;
+    padding: 30px;
+}
+.logos-footer img {
+    padding: 20px;
+}
+
+
+  @media (max-width: 768px) {
+
+    .img img {
+        width: 65%;
+    }
+    .contenedor-ppal-info {
+        width: 100%;
+        height: auto;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        padding: 38px;
+        position: relative;
+        top: 30px;
+        left: 22px;
+        max-width: 250px;
+        margin: 0;
+        text-align: center;
+    }
+    p.date-top {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: normal;
+    }
+    .contenedor-info h2 {
+        font-size: 18px;
+        line-height: normal;
+    }
+    p {
+        font-family: 'roboto';
+        font-size: 13px;
+        margin: 5px;
+    }
+    .btn-top {
+        width: 45%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    .speakers {
+        text-align: center;
+        padding-top: 15px;
+        height: auto;
+        padding-bottom: 49px;
+    }
+    .speakers-info h3 {
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+    .speakers-info h2 {
+        font-size: 18px;
+    }
+    .form-container {
+        padding: 2rem;
+        width: auto;
+        margin-top: 20px;
+        max-width: 450px;
+    }
+    .speakers-grid h4 {
+        font-size: 17px;
+        line-height: normal;
+    }
+    .speakers-grid img {
+        width: 130px;
+        height: auto;
+
+    }
+    .speakers-grid {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        height: auto;
+        max-width: 39%;
+    }
+    .speakers-grid p {
+        margin: 0;
+        font-size: 13px;
+    }
+    .agenda {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .agenda h3 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .agenda h2 {
+        margin: 0;
+        font-size: 18px;
+        line-height: normal;
+    }
+    .schedule {
+        margin: 30px auto;
+
+    }
+    .schedule th, .schedule td {
+        font-size: 13px;
+    }
+    .button-container {
+        margin-top: 60px;
+        height: auto;
+    }
+    #add-to-calendar {
+        padding: 15px;
+        font-size: 14px;
+    }
+    .contenedor-img-form {
+        display: none;
+    }
+    .formulario-registro p {
+        text-align: center;
+        line-height: normal;
+        font-size: 14px;
+        padding: 0px;
+        letter-spacing: 1px;
+    }
+    .formulario-registro h2 {
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+    .ubicacion h3 {
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+    .ubicacion h2 {
+        line-height: normal;
+        font-size: 18px;
+    }
+    .barra-footer img {
+        width: 70%;
+    }
+    .barra-bottom-banner {
+       
+        padding: 10px;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .contenedor-ppal-info{
+        position: inherit;
+    }
+
+    .col-lg-12 {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+  }
+
+
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-lg {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  @media (min-width: 992px) {
+    .col-lg {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .col-lg-auto {
+      flex: 0 0 auto;
+      width: auto;
+      max-width: none;
+    }
+  
+    .col-lg-1 {
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
+    }
+  
+    .col-lg-2 {
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+    }
+  
+    .col-lg-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  
+    .col-lg-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  
+    .col-lg-5 {
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+    }
+  
+    .col-lg-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .col-lg-7 {
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+    }
+  
+    .col-lg-8 {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+    }
+  
+    .col-lg-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+  
+    .col-lg-10 {
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
+    }
+  
+    .col-lg-11 {
+      flex: 0 0 91.666667%;
+      max-width: 91.666667%;
+    }
+  
+    .col-lg-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
